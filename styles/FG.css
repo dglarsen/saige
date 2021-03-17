@@ -1,0 +1,66 @@
+.map {
+  width: 100%;
+  height:600px;
+}
+.rel {
+  position: relative
+}
+#plot {
+  pointer-events: none;
+  position: absolute;
+  bottom: 80px;
+  left: 20px;
+}
+.fg-ol-colorscale .ol-unselectable .ol-control{
+  position: absolute;
+  pointer-events: none;
+  bottom: 30px;
+  right: 10px;
+}
+.bar {
+  pointer-events: auto;
+  fill: #AFAFB9;
+}
+
+.bar.selected {
+  fill: #BF0000;
+}
+
+.tip {
+  position: absolute;
+  background: black;
+  color: white;
+  padding: 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: none;
+  opacity: 0;
+}
+
+#ColorScaleLegend {
+  pointer-events: none;
+  position: absolute;
+  bottom: 60px;
+  left: 10px;
+}
+#Histogram {
+  pointer-events: none;
+  position: absolute;
+  height: 120px;
+  width: 60px;
+  bottom: 30px;
+  left: 75px;
+}
+#ClickInfo {
+  pointer-events: none;
+  position: absolute;
+  height: 120px;
+  width: 60px;
+  bottom: 75px;
+  right: 150px;
+}
+#legend {
+  height: 300px;
+  width: 60px;
+}
